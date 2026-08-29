@@ -1,0 +1,22 @@
+{
+  "name": "sistem-pendataan-timah-tricakti",
+  "version": "1.0.0",
+  "description": "Sistem Dashboard Pendataan Alur Produksi Tambang Timah Satlap Tricakti",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.6",
+    "express": "^4.22.2",
+    "jsonwebtoken": "^9.0.3",
+    "multer": "^1.4.5-lts.1",
+    "path": "^0.12.7",
+    "qrcode": "^1.5.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
